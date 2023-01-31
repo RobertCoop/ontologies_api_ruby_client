@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency('excon')
   gem.add_dependency('lz4-ruby')
   gem.add_dependency('spawnling', '2.1.5')
-  gem.add_dependency('activesupport', '~> 6.0.4')
+  gem.add_dependency('activesupport', '>= 6.0.4', '< 7.1.0')
 
   # gem.executables = %w()
 end
